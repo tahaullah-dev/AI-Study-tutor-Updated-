@@ -1,42 +1,88 @@
-📚 AI Study Tutor
+# AI Study Tutor
 
-An intelligent and interactive study assistant designed to make learning easier, faster, and smarter. With AI-powered summarization and quiz generation, this tool helps students understand complex topics, practice effectively, and stay focused.
+A modern and responsive study helper web application built with *HTML, CSS, JavaScript, Node.js, and Express*.
+Uses the *OpenRouter AI API* to generate summaries and quizzes from any study content, making learning faster and more efficient.
 
-🌟 Why Use AI Study Tutor?
+---
 
-Whether you’re preparing for exams, revising notes, or testing your knowledge, AI Study Tutor provides personalized support to help you learn smarter—not harder.
+## 🔥 Features
 
-🔥 Features
+* ✅ Summarize study material with customizable *summary length* (short, medium, long)
+* 📝 Generate quizzes with selectable *difficulty levels* (Easy, Medium, Hard)
+* 🌙 Toggle between *light and dark mode* for comfortable viewing
+* 📱 Fully responsive design for *desktop, tablet, and mobile*
+* ⚡ Powered by *AI (OpenRouter deepseek-chat-v3.1\:free)* for smart study assistance
 
-✅ Smart Summaries – Summarize study material with customizable lengths (short, medium, long).
+---
 
-📝 Quiz Generator – Create quizzes with selectable difficulty levels (Easy, Medium, Hard).
+## 🛠 Technologies Used
 
-🌙 Theme Toggle – Switch between light and dark mode for comfortable viewing.
+* 🌐 Frontend: HTML, CSS, JavaScript
+* ⚡ Backend: Node.js, Express.js
+* 🤖 AI: OpenRouter AI API
+* 🌐 Hosting: Frontend on Netlify, Backend on Render
 
-📱 Responsive Design – Works seamlessly on desktop, tablet, and mobile.
+---
 
-⚡ AI-Powered – Powered by OpenRouter (deepseek-chat-v3.1:free) for intelligent study assistance.
+## 🌐 Live Demo
 
-🛠 Technologies Used
+👉 [View AI Study Tutor](https://ai-study-tutor.netlify.app)
+👉 [Backend API on Render](https://ai-study-tutor-j5ju.onrender.com)
 
-🌐 Frontend: HTML, CSS, JavaScript
+---
 
-⚡ Backend: Node.js, Express.js
+## 🚀 Installation & Setup
 
-🤖 AI Integration: OpenRouter AI API
+To run the project locally, follow these steps:
 
-🚀 Hosting: Frontend on Netlify, Backend on Render
+1. *Clone the repository*
 
-🚀 Getting Started
+```bash
+git clone https://github.com/tahaullah-dev/AI-Study-Tutor.git
+cd AI-Study-Tutor
+```
 
-Install dependencies
+2. *Install backend dependencies*
 
+```bash
 npm install
+```
 
+3. *Create a `.env` file in the backend folder* with your OpenRouter API key:
 
-Add your OpenRouter API key in .env.
+```
+API_KEY=sk-xxxxxxxxxxxxxxxx
+```
 
-Run the app
+4. *Run the backend server locally*
 
-npm start
+```bash
+node server.js
+```
+
+5. *Open `index.html` in your browser* or deploy the frontend to Netlify.
+
+---
+
+## 📸 Preview
+
+![AI Study Tutor](./AI%20Study%20Tutor.png)
+
+---
+
+## 🔮 Future Enhancements
+
+* Add *topic-specific quiz modes*
+* Implement *save and export summaries/quizzes*
+* Enable *user accounts and history tracking*
+* Add *AI-powered explanations for quiz answers*
+* Improve *UI/UX with animations and progress tracking*
+
+---
+
+## 🧑‍💻 Author
+
+*Taha Ullah*
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/tahaullah-dev)
+* 💻 [GitHub](https://github.com/tahaullah-dev)
